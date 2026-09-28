@@ -2,8 +2,7 @@
 
 **How much of your alpha survives execution?**
 
-[Demo](https://drive.google.com/file/d/1dd6auNKp75jg_5R7BLBO7D8EiGYoV8io/view)
-
+**[Try it in your browser](https://execution-laboratory.vercel.app/)** · [Video walkthrough](https://drive.google.com/file/d/1dd6auNKp75jg_5R7BLBO7D8EiGYoV8io/view)
 
 [![CI](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml/badge.svg)](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml)
 ![OCaml 5.2](https://img.shields.io/badge/OCaml-5.2-ec6813)
@@ -170,12 +169,17 @@ embedded copy of the data catalog. There is no backend compute.
   or pinned as the baseline for a "what changed" comparison.
 - Two first-class themes, `paper` and `dark`, behind a runtime toggle.
   Green and red mean good and bad execution only. Order identity gets its
-  own hue palette. Buy and sell stay neutral
+  own hue palette. Buy and sell stay neutral.
 
 ```sh
 dune build app/ui/main.bc.js
 dune exec bin/server.exe -- 8081      # then open http://localhost:8081/
+app/ui/export.sh                      # or write a static site/ for hosting
 ```
+
+The hosted copy at [execution-laboratory.vercel.app](https://execution-laboratory.vercel.app/)
+is exactly that export: one page and a 3 MB release bundle with all 66
+sessions embedded, no backend.
 
 The UI builds against Jane Street's preview Bonsai releases and the
 OxCaml toolchain, which the public opam repository does not carry. CI
@@ -234,7 +238,7 @@ a `Market_bar` cannot violate `low <= open, close <= high`, a
   on flat, trending, and wide-range days.
 - **Arrival price is sampled at the first minute the algorithm could
   actually trade**, so no configuration is charged for a price it could
-  never have reached
+  never have reached.
 
 ---
 
