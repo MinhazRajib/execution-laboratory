@@ -2,7 +2,7 @@
 
 **How much of your alpha survives execution?**
 
-[Demo]([url](https://drive.google.com/file/d/1dd6auNKp75jg_5R7BLBO7D8EiGYoV8io/view))
+[Demo]((https://drive.google.com/file/d/1dd6auNKp75jg_5R7BLBO7D8EiGYoV8io/view))
 
 [![CI](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml/badge.svg)](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml)
 ![OCaml 5.2](https://img.shields.io/badge/OCaml-5.2-ec6813)
