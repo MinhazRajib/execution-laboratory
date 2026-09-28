@@ -167,7 +167,7 @@ embedded copy of the data catalog. There is no backend compute.
   or pinned as the baseline for a "what changed" comparison.
 - Two first-class themes, `paper` and `dark`, behind a runtime toggle.
   Green and red mean good and bad execution only. Order identity gets its
-  own hue palette. Buy and sell stay neutral.
+  own hue palette. Buy and sell stay neutral
 
 ```sh
 dune build app/ui/main.bc.js
