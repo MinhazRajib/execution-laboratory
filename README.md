@@ -2,7 +2,7 @@
 
 **How much of your alpha survives execution?**
 
-[![CI](https://github.com/MinhazRajib/slippery-executives/actions/workflows/ci.yml/badge.svg)](https://github.com/MinhazRajib/slippery-executives/actions/workflows/ci.yml)
+[![CI](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml/badge.svg)](https://github.com/MinhazRajib/execution-laboratory/actions/workflows/ci.yml)
 ![OCaml 5.2](https://img.shields.io/badge/OCaml-5.2-ec6813)
 ![Jane Street stack](https://img.shields.io/badge/stack-Core%20%C2%B7%20ppx__jane%20%C2%B7%20Bonsai-3d3d3d)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)

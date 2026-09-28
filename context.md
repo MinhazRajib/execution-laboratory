@@ -1,4 +1,4 @@
-# Project context — slippery-executives
+# Project context — execution-laboratory (ExecLab)
 
 Read this first. It captures what the project is, the full plan, every
 design decision made so far and why, and the current state of the code.
