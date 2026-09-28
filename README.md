@@ -231,7 +231,7 @@ a `Market_bar` cannot violate `low <= open, close <= high`, a
   on flat, trending, and wide-range days.
 - **Arrival price is sampled at the first minute the algorithm could
   actually trade**, so no configuration is charged for a price it could
-  never have reached.
+  never have reached
 
 ---
 
